@@ -1,36 +1,21 @@
-# Wild Rift Project - Sito Web
+# Wild Rift fan site
 
-Progetto realizzato nel 2022 durante l'ultimo anno di superiori. Il sito web è stato creato utilizzando HTML, CSS, JavaScript e PHP, con database MySQL. Il sito è stato sviluppato per emulare un sito informativo per il gioco League of Legends: Wild Rift.
+A website about the mobile game League of Legends: Wild Rift, built in 2022 as my final-year high school project. It uses plain PHP with a MySQL database, plus HTML, CSS and some JavaScript.
 
-## Descrizione
+## Features
 
-Questo progetto include le seguenti pagine e funzionalità:
+- Home page and game overview
+- List of champions
+- Sign-up, login and profile editing
+- Skin shop with an in-site coin balance and a simulated payment flow
+- Support form
 
-- **Pagina principale**: una panoramica generale del gioco, con informazioni introduttive.
-- **Panoramica del gioco**: descrizione dettagliata di Wild Rift e delle sue meccaniche.
-- **Campioni**: una pagina per visualizzare l'elenco dei campioni disponibili nel gioco.
-- **Negozio**: una sezione per visualizzare e acquistare le skin dei campioni, utilizzando un sistema di pagamento simulato.
-- **Supporto**: una pagina per fornire assistenza agli utenti.
-- **Pagina dell'utente**: per registrare e gestire il profilo dell'utente, inclusi i dettagli personali e le preferenze.
+## Running it locally
 
-## Come eseguire il progetto
+1. Install [XAMPP](https://www.apachefriends.org/) and start Apache and MySQL from the control panel.
+2. Copy the project into XAMPP's `htdocs` folder as `htdocs/Progetto`.
+3. Open `http://localhost/Progetto/home.php` in the browser.
 
-1. **Scarica XAMPP** se non l'hai già fatto, e installalo sul tuo computer.
-2. **Avvia XAMPP**:
-   - Apri il pannello di controllo di XAMPP e **starta** i servizi **MySQL** e **Apache**.
-3. **Apri il browser** e digita nella barra degli indirizzi:
-  ```
-  http://localhost/Progetto/home.php
-  ```
-Questo ti permetterà di vedere il sito web in locale.
+The database can be managed from phpMyAdmin at `http://localhost/phpmyadmin`.
 
-4. **Per accedere al database**:
-- Vai su **phpMyAdmin** tramite l'URL:
-  ```
-  http://localhost/phpmyadmin
-  ```
-- Qui puoi visualizzare e gestire il database.
-- 
-
-**Nota sulle immagini:** A causa della dimensione elevata, le immagini non sono state caricate nel progetto. Se desideri visualizzarle, sono disponibili nella versione completa del progetto.
-
+The images are not included in the repository because of their size, so some pages will show missing images.
